@@ -1,6 +1,7 @@
 {
-  "name": "init-react-project",
-  "version": "0.1.0",
+  "name": "behyve-landing-page-for-uni-task",
+  "version": "1.0.0",
+  "author": "Amirreza Safajoo",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",

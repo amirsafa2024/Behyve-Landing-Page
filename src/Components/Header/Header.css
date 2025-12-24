@@ -1,0 +1,28 @@
+a.header {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #143420;
+}
+div#parent-header {
+    display: flex;
+    border-bottom: 1px solid #143420;
+}
+div.header-left, div.header-right {
+    width : 50%;
+    padding: 10px;
+
+}
+div.header-right {
+    direction: rtl;
+}
+a#login-button {
+    background: #E3FECC;
+}
+@media (max-width:915px) {
+    div.header-right {
+        display: none;
+    }
+    div.header-left {
+        width: 100%;
+    }
+}

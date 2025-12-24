@@ -1,0 +1,53 @@
+div#mainIntro {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: auto;
+}
+div#mainIntro div {
+    width: 45%;
+    margin: 0 auto;
+    height: auto;
+}
+div#mainIntro div#rightSideOfMainIntro {
+    position: relative;
+    
+}
+.bgImg {
+    width: 100%;
+    margin-top: 92px;
+}
+.phoneImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 41%;
+}
+div#leftSideOfMainIntro {
+    padding: 10% 5%;
+    box-sizing: border-box;
+    color: #143420;
+}
+div#leftSideOfMainIntro h1 {
+    font-size: 40px
+}
+button.introBtn {
+    padding: 10px 20px;
+    background: #E3FECC;
+    color: #143420;
+    border: transparent;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+@media (max-width:915px) {
+    div#mainIntro div {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .bgImg {
+    margin-top: 25px;
+}
+}

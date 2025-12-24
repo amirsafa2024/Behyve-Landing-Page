@@ -1,0 +1,70 @@
+div#footer-top-part {
+    display: flex;
+    
+}
+div.footer-description {
+    width: 34%;
+    padding: 20px;
+   
+}
+div.footer-item-container {
+    width: 22%;
+    padding: 20px;
+    
+}
+div.footer-item-container ul {
+   list-style: none;
+   padding: 0;
+}
+div.footer-item-container ul li {
+    padding-top: 10px;
+}
+div#footer-ul-container ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+div#footer-ul-container ul li{
+    width: 50%;
+    
+}
+div#footer-separator-line {
+    width: 95%;
+    height: 0.5px;
+    background: #143420;
+    margin: 0 auto;
+}
+div#test a, div#test span{
+    padding: 10px;
+    color: #143420;
+    text-decoration: none;
+}
+div#test {
+    width: 97%;
+    margin: 10px auto 0;
+}
+div.footer-item-container a {
+    text-decoration: none;
+    color: #143420;
+}
+address a {
+    text-decoration: none;
+    color: #143420;
+}
+.downloadAppBtn {
+    margin: 10px 0;
+}
+@media (max-width:915px) {
+    div.footer-item-container, div.footer-description {
+        width: 100%;
+    } 
+    div#footer-top-part {
+       flex-wrap: wrap;
+    }
+    div.footer-item-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    div.footer-item-container ul li {
+        width: 50%;
+    }
+}

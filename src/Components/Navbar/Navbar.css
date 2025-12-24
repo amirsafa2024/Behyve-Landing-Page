@@ -1,0 +1,39 @@
+ul.main-nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+ul.main-nav li a.normal-item {
+    text-decoration: none;
+    padding: 0;
+    color: #143420;
+    font-size: 18px;
+}
+ul.main-nav li {
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+nav.main-navbar {
+    display: flex;
+    padding: 20px 20px 20px 0;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main-logo {
+    margin: 0 20px 0 0 ;
+    padding: 0;
+}
+#drop-down {
+    display: none;
+}
+@media (max-width:1260px) {
+    #drop-down {
+    display: inline;
+    position: absolute;
+    right: 0;
+}
+li.normal-li {
+    display: none;
+}
+}

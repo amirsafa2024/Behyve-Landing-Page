@@ -1,0 +1,37 @@
+div#exploreServiceContainer {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    direction: rtl;
+    margin: 0 auto
+}
+div#exploreServiceContainer div {
+    margin: 0 auto;
+    color: #143420;
+    
+}
+div#exploreServiceLeft {
+    direction: ltr;
+    width: 550px;
+    padding: 80px;
+    box-sizing: border-box;
+}
+div#exploreServiceLeft button{
+    padding: 10px 20px;
+    background: #E3FECC;
+    color: #143420;
+    border: transparent;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+div#exploreServiceContainer div video {
+    width: 850px;
+    height: auto;
+}
+@media (max-width:915px) {
+    div#exploreServiceContainer div video {
+    width: 100%;
+    height: auto;
+}
+}
